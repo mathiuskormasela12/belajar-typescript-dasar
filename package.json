@@ -1,0 +1,19 @@
+{
+  "name": "belajar-typescript-dasar",
+  "version": "1.0.0",
+  "description": "Belajar TypeScript Dasar",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "rm -rf build/ && tsc",
+		"ts": "rm -rf build/ && tsc -w",
+		"dev": "nodemon ./build/modules/Product.js"
+  },
+  "keywords": [
+    "Typescript"
+  ],
+  "author": "Mathius Kormasela",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.0.2"
+  }
+}
